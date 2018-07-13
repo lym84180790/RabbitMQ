@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: lym-rabbitmq-receiver
+  rabbitmq:
+    #配置连接IP地址，本机安装的RabbitMQ的话可以用localhost
+    host: 127.0.0.1
+    #这里配置的是RabbitMQ的连接端口，是5672哦不是15672
+    port: 5672
+    username: liyiming
+    password: 123456
+  
